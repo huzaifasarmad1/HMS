@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<nav class="navbar navbar-light bg-light justify-content-between">
+    <a class="navbar-brand" style="margin-left: 1%;">Incoming Appointments</a>
+    <form class="form-inline">
+      <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+      <button class="fa fa-plus my-2 my-sm-0" style="color:green; border:0px; background-color:transparent; margin:16px" (click)="bookappointment()">  New</button>
+    </form>
+  </nav>
+  
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+      <th scope="col">Doctors Name</th>
+        <th scope="col">Time</th>
+        <!-- <th scope="col">Handle</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let result of data">
+        <td>{{result.doctor}}</td>
+        <td>{{result.time}}</td>
+    </tr>
+    </tbody>
+    
+  </table>
+  <nav class="navbar navbar-light bg-light justify-content-between">
+    <a class="navbar-brand" style="margin-left: 1%;">Past Appointments</a>
+    <form class="form-inline">
+       </form>
+  </nav>
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+      <th scope="col">Doctors Name</th>
+        <th scope="col">Time</th>
+        <!-- <th scope="col">Handle</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let result of data">
+        <td>{{result.doctor}}</td>
+        <td>{{result.time}}</td>
+    </tr>
+    </tbody>
+    
+  </table>

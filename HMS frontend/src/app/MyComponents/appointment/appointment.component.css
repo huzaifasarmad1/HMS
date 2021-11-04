@@ -1,0 +1,82 @@
+body {
+	color: #fff;
+	/* background: #c5d5cb; */
+    background: #9fa8a3;
+	font-family: 'Roboto', sans-serif;
+}
+.form-control {
+	height: 41px;
+	background: #f2f2f2;
+	box-shadow: none !important;
+	border: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.form-control:focus {
+	background: #e2e2e2;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.appointment-form {
+	width: 400px;
+	margin: 30px auto;
+    /* margin-top: 0px; */
+}
+.appointment-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.appointment-form h2  {
+	color: #333;
+	font-weight: bold;
+	margin-top: 0;
+}
+.appointment-form hr  {
+	margin: 0 -30px 20px;
+}    
+.appointment-form .form-group {
+	margin-bottom: 20px;
+}
+.appointment-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.appointment-form .row div:first-child {
+	padding-right: 10px;
+}
+.appointment-form .row div:last-child {
+	padding-left: 10px;
+}
+.appointment-form .btn {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #3598dc;
+	border: none;
+	min-width: 140px;
+}
+.appointment-form .btn:hover, .appointment-form .btn:focus {
+	background: #2389cd !important;
+	outline: none;
+}
+.appointment-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.appointment-form a:hover {
+	text-decoration: none;
+}
+.appointment-form form a {
+	color: #3598dc;
+	text-decoration: none;
+}	
+.appointment-form form a:hover {
+	text-decoration: underline;
+}
+.appointment-form .hint-text  {
+	padding-bottom: 15px;
+	text-align: center;
+}

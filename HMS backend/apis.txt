@@ -1,0 +1,1 @@
+signup,login,getbookedappointments,bookappointment,pastappointments,addappointment,viewappointments,updateappointment,delete appointment,
